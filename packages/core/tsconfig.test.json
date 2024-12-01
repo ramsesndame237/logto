@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "isolatedModules": false,
+    "allowJs": true,
+  },
+  "include": [
+    "src/"
+  ]
+}

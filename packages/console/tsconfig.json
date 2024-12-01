@@ -1,0 +1,14 @@
+{
+  "extends": "@silverhand/ts-config-react/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src",
+    "jest.*.ts",
+    "*.config.ts"
+  ]
+}
